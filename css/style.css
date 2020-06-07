@@ -51,15 +51,16 @@ header {
     display: inline-block;
     margin: 0 50px;
     padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
     
 
 }
 
 .menu ul li a:hover {
-    border-bottom: 1px solid #626262;
+    border-bottom: 2px solid #626262;
     cursor: pointer;
-    transition: .5s;
-
+    
 }
 
 .menu ul li:last-child a {
